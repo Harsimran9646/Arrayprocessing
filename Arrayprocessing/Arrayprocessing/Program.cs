@@ -24,6 +24,7 @@ namespace Arrayprocessing
             {
             for (j = i+1; j < size; j++)
             {
+
             if (arr[i] ==arr[j++])
             Console.WriteLine(arr[i]+" ");
             }
